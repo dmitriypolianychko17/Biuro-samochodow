@@ -1,0 +1,56 @@
+Index: src/samochodydb/klienci.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- src/samochodydb/klienci.java	(date 1578938013475)
++++ src/samochodydb/klienci.java	(date 1578938013475)
+@@ -9,7 +9,7 @@
+ public class klienci implements Serializable {
+     private static final long serialVersionUID=-300025L;
+     @Id
+-    @GeneratedValue(strategy = GenerationType.IDENTITY)
++    @GeneratedValue
+     @Column(name = "id_klienta", unique = true)
+     private int id_klienta;
+ 
+@@ -25,13 +25,14 @@
+     @Column(name = "telefon")
+     private int telefon;
+ 
+-    public klienci(String imie, String nazwisko, String adres, int telefon) {
+-        this.imie = imie;
+-        this.nazwisko = nazwisko;
+-        this.adres = adres;
+-        this.telefon = telefon;
++    public klienci (String imie, String nazwisko, String adres, int telefon){
++        this.imie=imie;
++        this.nazwisko=nazwisko;
++        this.adres=adres;
++        this.telefon=telefon;
+     }
+ 
++
+     public klienci() {
+ 
+     }
+@@ -41,10 +42,6 @@
+         return id_klienta;
+     }
+ 
+-    public void setId_klienta(int id_klienta) {
+-        this.id_klienta = id_klienta;
+-    }
+-
+     public String getImie(String imieKlienta) {
+         return imie;
+     }
+@@ -69,7 +66,7 @@
+         this.adres = adres;
+     }
+ 
+-    public int getTelefon(String telefonKlienta) {
++    public int getTelefon(int telefonKlienta) {
+         return telefon;
+     }
+ 

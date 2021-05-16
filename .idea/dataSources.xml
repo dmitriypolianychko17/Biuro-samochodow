@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
+    <data-source source="LOCAL" name="hibernate.cfg.xml/Hibernate" uuid="b992d3c1-6958-4007-9c5f-475c729ca254">
+      <driver-ref>mysql</driver-ref>
+      <synchronize>true</synchronize>
+      <imported>true</imported>
+      <remarks>Hibernate
+
+D:/Java проекти/BiuroSamochodow/src/hibernate.cfg.xml</remarks>
+      <jdbc-driver>com.mysql.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://localhost/biurosamochodow</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="cfg:hibernate.cfg.xml/Hibernate" uuid="e7a58090-6f58-4e85-9684-1955a71fc4b5">
+      <driver-ref>mysql</driver-ref>
+      <synchronize>true</synchronize>
+      <imported>true</imported>
+      <remarks>Hibernate
+
+D:/Java проекти/BiuroSamochodow/src/cfg/hibernate.cfg.xml</remarks>
+      <jdbc-driver>com.mysql.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://localhost/biurosamochodow</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="biurosamochodow1@localhost" uuid="962052ee-a2de-4596-b94b-aa278cea4910">
+      <driver-ref>mysql.8</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://localhost:3306/biurosamochodow1</jdbc-url>
+    </data-source>
+  </component>
+</project>
